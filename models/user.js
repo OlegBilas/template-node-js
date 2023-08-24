@@ -9,7 +9,7 @@ const STATUS_SUBSCRIPTION = {
 
 const regexEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 // номер телефону у форматі хххххххххххх
-const regexPhone = /[0-9]{2}[0-9]{3}[0-9]{7}/;
+const regexPhone = /\+[0-9]{2}[0-9]{3}[0-9]{7}/;
 
 // Валідатор даних на сервері
 const schemaDBUserValidator = new Schema(
